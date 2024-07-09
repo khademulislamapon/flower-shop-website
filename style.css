@@ -1,0 +1,61 @@
+/* lato font */
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: "Lato", sans-serif;
+}
+/* head-contener */
+#head-contener{
+    max-width: 1920px;
+    height: 850px;
+    background-color: #FCEEF1;
+    /* border: 2px solid #FCEEF1; */
+    position: relative;
+}
+.head-section{
+    max-width: 1440px;
+    height: 800px;
+    /* border: 2px solid red; */
+    /* background-color: #323030; */
+    margin: 0 auto;
+    /* padding-top: 50px; */
+    display: flex;
+}
+.head-content{
+    max-width: 708px;
+    height: 506px;
+    margin: 147px 0 0;
+}
+.head-content h1{
+    font-size: 80px;
+    color: #272727;
+    font-weight: 900px;
+}
+.head-content p{
+    font-size: 18px;
+    color: #272727;
+    margin: 32px 0;
+}
+.head-content button{
+    color: #FFFFFF;
+    font-size: 20px;
+    font-weight: bold;
+    border: none;
+    background-color: #E55473;
+    padding: 20px 43px;
+}
+
+.head-img{
+    max-width: 635px;
+    height: 800px;
+    position: absolute;
+    right: 0;
+    bottom: 0;
+}
+.head-img img{}
+
+/* featured-contener */
